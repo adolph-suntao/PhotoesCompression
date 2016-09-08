@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31266C011D81955900A7B507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31266C001D81955900A7B507 /* main.m */; };
+		31266C041D81955900A7B507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31266C031D81955900A7B507 /* AppDelegate.m */; };
+		31266C071D81955900A7B507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31266C061D81955900A7B507 /* ViewController.m */; };
+		31266C0A1D81955900A7B507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31266C081D81955900A7B507 /* Main.storyboard */; };
+		31266C0C1D81955900A7B507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31266C0B1D81955900A7B507 /* Assets.xcassets */; };
+		31266C0F1D81955900A7B507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31266C0D1D81955900A7B507 /* LaunchScreen.storyboard */; };
+		31266C1A1D81955900A7B507 /* PhotoesCompressionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31266C191D81955900A7B507 /* PhotoesCompressionTests.m */; };
+		31266C251D81955900A7B507 /* PhotoesCompressionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31266C241D81955900A7B507 /* PhotoesCompressionUITests.m */; };
+		31266C331D81956D00A7B507 /* tupianceshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31266C321D81956D00A7B507 /* tupianceshi.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31266C161D81955900A7B507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31266BF41D81955900A7B507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31266BFB1D81955900A7B507;
+			remoteInfo = PhotoesCompression;
+		};
+		31266C211D81955900A7B507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31266BF41D81955900A7B507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31266BFB1D81955900A7B507;
+			remoteInfo = PhotoesCompression;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31266BFC1D81955900A7B507 /* PhotoesCompression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoesCompression.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31266C001D81955900A7B507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31266C021D81955900A7B507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31266C031D81955900A7B507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31266C051D81955900A7B507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31266C061D81955900A7B507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31266C091D81955900A7B507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31266C0B1D81955900A7B507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31266C0E1D81955900A7B507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31266C101D81955900A7B507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31266C151D81955900A7B507 /* PhotoesCompressionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoesCompressionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31266C191D81955900A7B507 /* PhotoesCompressionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoesCompressionTests.m; sourceTree = "<group>"; };
+		31266C1B1D81955900A7B507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31266C201D81955900A7B507 /* PhotoesCompressionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoesCompressionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31266C241D81955900A7B507 /* PhotoesCompressionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoesCompressionUITests.m; sourceTree = "<group>"; };
+		31266C261D81955900A7B507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31266C321D81956D00A7B507 /* tupianceshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tupianceshi.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31266BF91D81955900A7B507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31266C121D81955900A7B507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31266C1D1D81955900A7B507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31266BF31D81955900A7B507 = {
+			isa = PBXGroup;
+			children = (
+				31266BFE1D81955900A7B507 /* PhotoesCompression */,
+				31266C181D81955900A7B507 /* PhotoesCompressionTests */,
+				31266C231D81955900A7B507 /* PhotoesCompressionUITests */,
+				31266BFD1D81955900A7B507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31266BFD1D81955900A7B507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31266BFC1D81955900A7B507 /* PhotoesCompression.app */,
+				31266C151D81955900A7B507 /* PhotoesCompressionTests.xctest */,
+				31266C201D81955900A7B507 /* PhotoesCompressionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31266BFE1D81955900A7B507 /* PhotoesCompression */ = {
+			isa = PBXGroup;
+			children = (
+				31266C321D81956D00A7B507 /* tupianceshi.jpg */,
+				31266C021D81955900A7B507 /* AppDelegate.h */,
+				31266C031D81955900A7B507 /* AppDelegate.m */,
+				31266C051D81955900A7B507 /* ViewController.h */,
+				31266C061D81955900A7B507 /* ViewController.m */,
+				31266C081D81955900A7B507 /* Main.storyboard */,
+				31266C0B1D81955900A7B507 /* Assets.xcassets */,
+				31266C0D1D81955900A7B507 /* LaunchScreen.storyboard */,
+				31266C101D81955900A7B507 /* Info.plist */,
+				31266BFF1D81955900A7B507 /* Supporting Files */,
+			);
+			path = PhotoesCompression;
+			sourceTree = "<group>";
+		};
+		31266BFF1D81955900A7B507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31266C001D81955900A7B507 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31266C181D81955900A7B507 /* PhotoesCompressionTests */ = {
+			isa = PBXGroup;
+			children = (
+				31266C191D81955900A7B507 /* PhotoesCompressionTests.m */,
+				31266C1B1D81955900A7B507 /* Info.plist */,
+			);
+			path = PhotoesCompressionTests;
+			sourceTree = "<group>";
+		};
+		31266C231D81955900A7B507 /* PhotoesCompressionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31266C241D81955900A7B507 /* PhotoesCompressionUITests.m */,
+				31266C261D81955900A7B507 /* Info.plist */,
+			);
+			path = PhotoesCompressionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31266BFB1D81955900A7B507 /* PhotoesCompression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31266C291D81955900A7B507 /* Build configuration list for PBXNativeTarget "PhotoesCompression" */;
+			buildPhases = (
+				31266BF81D81955900A7B507 /* Sources */,
+				31266BF91D81955900A7B507 /* Frameworks */,
+				31266BFA1D81955900A7B507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoesCompression;
+			productName = PhotoesCompression;
+			productReference = 31266BFC1D81955900A7B507 /* PhotoesCompression.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31266C141D81955900A7B507 /* PhotoesCompressionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31266C2C1D81955900A7B507 /* Build configuration list for PBXNativeTarget "PhotoesCompressionTests" */;
+			buildPhases = (
+				31266C111D81955900A7B507 /* Sources */,
+				31266C121D81955900A7B507 /* Frameworks */,
+				31266C131D81955900A7B507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31266C171D81955900A7B507 /* PBXTargetDependency */,
+			);
+			name = PhotoesCompressionTests;
+			productName = PhotoesCompressionTests;
+			productReference = 31266C151D81955900A7B507 /* PhotoesCompressionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31266C1F1D81955900A7B507 /* PhotoesCompressionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31266C2F1D81955900A7B507 /* Build configuration list for PBXNativeTarget "PhotoesCompressionUITests" */;
+			buildPhases = (
+				31266C1C1D81955900A7B507 /* Sources */,
+				31266C1D1D81955900A7B507 /* Frameworks */,
+				31266C1E1D81955900A7B507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31266C221D81955900A7B507 /* PBXTargetDependency */,
+			);
+			name = PhotoesCompressionUITests;
+			productName = PhotoesCompressionUITests;
+			productReference = 31266C201D81955900A7B507 /* PhotoesCompressionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31266BF41D81955900A7B507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = suntao;
+				TargetAttributes = {
+					31266BFB1D81955900A7B507 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					31266C141D81955900A7B507 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 31266BFB1D81955900A7B507;
+					};
+					31266C1F1D81955900A7B507 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 31266BFB1D81955900A7B507;
+					};
+				};
+			};
+			buildConfigurationList = 31266BF71D81955900A7B507 /* Build configuration list for PBXProject "PhotoesCompression" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31266BF31D81955900A7B507;
+			productRefGroup = 31266BFD1D81955900A7B507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31266BFB1D81955900A7B507 /* PhotoesCompression */,
+				31266C141D81955900A7B507 /* PhotoesCompressionTests */,
+				31266C1F1D81955900A7B507 /* PhotoesCompressionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31266BFA1D81955900A7B507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31266C0F1D81955900A7B507 /* LaunchScreen.storyboard in Resources */,
+				31266C0C1D81955900A7B507 /* Assets.xcassets in Resources */,
+				31266C0A1D81955900A7B507 /* Main.storyboard in Resources */,
+				31266C331D81956D00A7B507 /* tupianceshi.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31266C131D81955900A7B507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31266C1E1D81955900A7B507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31266BF81D81955900A7B507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31266C071D81955900A7B507 /* ViewController.m in Sources */,
+				31266C041D81955900A7B507 /* AppDelegate.m in Sources */,
+				31266C011D81955900A7B507 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31266C111D81955900A7B507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31266C1A1D81955900A7B507 /* PhotoesCompressionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31266C1C1D81955900A7B507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31266C251D81955900A7B507 /* PhotoesCompressionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31266C171D81955900A7B507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31266BFB1D81955900A7B507 /* PhotoesCompression */;
+			targetProxy = 31266C161D81955900A7B507 /* PBXContainerItemProxy */;
+		};
+		31266C221D81955900A7B507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31266BFB1D81955900A7B507 /* PhotoesCompression */;
+			targetProxy = 31266C211D81955900A7B507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31266C081D81955900A7B507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31266C091D81955900A7B507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31266C0D1D81955900A7B507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31266C0E1D81955900A7B507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31266C271D81955900A7B507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31266C281D81955900A7B507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31266C2A1D81955900A7B507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoesCompression/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.PhotoesCompression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31266C2B1D81955900A7B507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoesCompression/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.PhotoesCompression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31266C2D1D81955900A7B507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoesCompressionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.PhotoesCompressionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoesCompression.app/PhotoesCompression";
+			};
+			name = Debug;
+		};
+		31266C2E1D81955900A7B507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoesCompressionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.PhotoesCompressionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoesCompression.app/PhotoesCompression";
+			};
+			name = Release;
+		};
+		31266C301D81955900A7B507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoesCompressionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.PhotoesCompressionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoesCompression;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		31266C311D81955900A7B507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoesCompressionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.PhotoesCompressionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoesCompression;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31266BF71D81955900A7B507 /* Build configuration list for PBXProject "PhotoesCompression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31266C271D81955900A7B507 /* Debug */,
+				31266C281D81955900A7B507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31266C291D81955900A7B507 /* Build configuration list for PBXNativeTarget "PhotoesCompression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31266C2A1D81955900A7B507 /* Debug */,
+				31266C2B1D81955900A7B507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31266C2C1D81955900A7B507 /* Build configuration list for PBXNativeTarget "PhotoesCompressionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31266C2D1D81955900A7B507 /* Debug */,
+				31266C2E1D81955900A7B507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31266C2F1D81955900A7B507 /* Build configuration list for PBXNativeTarget "PhotoesCompressionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31266C301D81955900A7B507 /* Debug */,
+				31266C311D81955900A7B507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31266BF41D81955900A7B507 /* Project object */;
+}
